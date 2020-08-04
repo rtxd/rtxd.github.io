@@ -2906,6 +2906,20 @@ ul.actions.fit.stacked {
   }
 }
 
+ul.skills {
+  list-style: none;
+  padding: 0;
+}
+
+ul.skills > li {
+  padding: 0;
+  margin: 0 0 0 0;
+}
+
+ul.skills > li:first-child {
+  margin-top: 0;
+}
+
 /* Contact */
 
 ul.contact {
