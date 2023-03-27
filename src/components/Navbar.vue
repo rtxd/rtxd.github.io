@@ -1,15 +1,13 @@
 <template>
     <div>
-        <v-app-bar :elevation="2" color="primary" density="comfortable">Alejandro's Website</v-app-bar>
+        <v-app-bar :elevation="2" color="primary" density="comfortable">
+            Alejandro's Website
+        </v-app-bar>
     </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
-<style>
-
-</style>
+<style></style>
