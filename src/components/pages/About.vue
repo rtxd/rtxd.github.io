@@ -36,6 +36,14 @@
                     slacklining, rockclimbing, parkour/freerunning and game
                     development.
                 </p>
+                <span
+                    >The
+                    <a href="https://iconscout.com/icons/avatar" target="_blank"
+                        >Avatar Icon</a
+                    >
+                    used in my title was obtained from
+                    <a href="https://iconscout.com">IconScout</a>
+                </span>
             </div>
         </section>
     </div>
