@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <v-text-field />
   </div>
 </template>
