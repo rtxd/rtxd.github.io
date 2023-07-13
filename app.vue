@@ -1,5 +1,9 @@
 <template>
   <div>
-    <v-text-field />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
 </template>
+
+<script></script>
