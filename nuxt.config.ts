@@ -26,4 +26,14 @@ export default defineNuxtConfig({
     },
   },
   components: { global: true },
+  css: ['@/assets/scss/global.scss'],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/scss/_vars.scss" as *;',
+        },
+      },
+    },
+  },
 })

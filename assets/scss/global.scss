@@ -1,0 +1,25 @@
+$background-color: #38363b;
+$highlight: #a984e0;
+$primary: #844cd8;
+
+div {
+  background-color: $background-color;
+  color: white;
+}
+
+a:hover {
+  color: $highlight;
+}
+
+h1 {
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
+}
+h3 {
+  font-size: larger;
+}
+h4 {
+  font-size: large;
+}

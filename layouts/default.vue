@@ -9,7 +9,11 @@
         <NuxtLink class="mx-2" to="/blog"> blog </NuxtLink>
       </v-app-bar>
       <v-main>
-        <slot />
+        <v-row justify="center" align-content="center">
+          <v-col :cols="9">
+            <slot />
+          </v-col>
+        </v-row>
       </v-main>
     </v-app>
   </div>
