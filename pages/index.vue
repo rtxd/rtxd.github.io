@@ -1,21 +1,28 @@
 <template>
   <div class="ma-10 h-full w-full d-flex flex-row">
-    <div class="mr-10">
+    <div class="w-full mr-10">
       <div>
         <NuxtImg class="main-image" src="/selfie.jpg" />
       </div>
       <div class="pt-10">
-        <h5>Skills</h5>
+        <h3>Skills</h3>
         <ul>
           <li>Vue JS</li>
         </ul>
       </div>
     </div>
-    <div class="w-full">
-      <h1>Full-Stack Software Engineer</h1>
-      <h3>Alejandro Munoz</h3>
-      <p>Hey there :)</p>
-      <p>My name is Alejandro Munoz and I'm a front-end software engineer living in Sydney.</p>
+    <div class="w-full ma-5">
+      <div class="mb-5">
+        <h1>Full-Stack Software Engineer</h1>
+        <h3>Alejandro Munoz</h3>
+        <p>My name is Alejandro Munoz and I'm a front-end software engineer living in Sydney.</p>
+      </div>
+      <div>
+        <h2>Technologies</h2>
+        <v-list>
+          <v-list-item> <v-icon>mdi_gear</v-icon> <span> AWS </span> </v-list-item>
+        </v-list>
+      </div>
     </div>
   </div>
 </template>
