@@ -1,18 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  alias: {
+    assets: '/<rootDir>/assets',
+  },
   devtools: { enabled: true },
-  modules: [
+  modules: ['@nuxtjs/eslint-module', [
     '@nuxtjs/eslint-module',
-    [
-      '@nuxtjs/eslint-module',
-      {
-        /* module options */
-      },
-    ],
-    '@nuxtjs/tailwindcss',
-    '@nuxt/content',
-    '@invictus.codes/nuxt-vuetify',
-  ],
+    {
+      /* module options */
+    },
+  ], '@nuxtjs/tailwindcss', '@nuxt/content', '@invictus.codes/nuxt-vuetify', "@nuxt/image"],
   vuetify: {
     moduleOptions: {
       /* nuxt-vuetify module options */
@@ -31,7 +28,7 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: '@use "@/assets/scss/_vars.scss" as *;',
+          // additionalData: '@use "@/assets/scss/_vars.scss" as *;',
         },
       },
     },

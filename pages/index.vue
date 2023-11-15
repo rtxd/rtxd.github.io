@@ -1,10 +1,36 @@
 <template>
-  <div>
-    <h1>A little about me...</h1>
-    <p>I'm a software developer that has been working in the industry for about 4 years now</p>
+  <div class="ma-10 h-full w-full d-flex flex-row">
+    <div class="mr-10">
+      <div>
+        <NuxtImg class="main-image" src="/selfie.jpg" />
+      </div>
+      <div class="pt-10">
+        <h5>Skills</h5>
+        <ul>
+          <li>Vue JS</li>
+        </ul>
+      </div>
+    </div>
+    <div class="w-full">
+      <h1>Full-Stack Software Engineer</h1>
+      <h3>Alejandro Munoz</h3>
+      <p>Hey there :)</p>
+      <p>My name is Alejandro Munoz and I'm a front-end software engineer living in Sydney.</p>
+    </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup lang="ts">
+useSeoMeta({
+  ogImage: '/og-image.png',
+})
+</script>
 
-<style></style>
+<style lang="scss">
+.main-image {
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 400px;
+}
+</style>

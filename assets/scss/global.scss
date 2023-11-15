@@ -1,10 +1,11 @@
-$background-color: #38363b;
+$background-color: #ffffff;
 $highlight: #a984e0;
-$primary: #844cd8;
+$primary: #fec694;
+$secondary: #80d4e5;
+$tertiary: #eb7770;
 
 div {
   background-color: $background-color;
-  color: white;
 }
 
 a:hover {
@@ -22,4 +23,20 @@ h3 {
 }
 h4 {
   font-size: large;
+}
+
+.debug {
+  border: 2px solid red;
+}
+
+.background {
+  &-primary {
+    background-color: $primary;
+  }
+  &-secondary {
+    background-color: $secondary;
+  }
+  &-tertiary {
+    background-color: $tertiary;
+  }
 }
