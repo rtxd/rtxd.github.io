@@ -1,15 +1,14 @@
 $background-color: #ffffff;
-$highlight: #a984e0;
 $primary: #fec694;
 $secondary: #80d4e5;
-$tertiary: #eb7770;
+$tertiary: #ec5d56;
 
 div {
   background-color: $background-color;
 }
 
 a:hover {
-  color: $highlight;
+  color: $tertiary;
 }
 
 h1 {
@@ -39,4 +38,11 @@ h4 {
   &-tertiary {
     background-color: $tertiary;
   }
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  font-variant-numeric: lining-nums tabular-nums;
 }

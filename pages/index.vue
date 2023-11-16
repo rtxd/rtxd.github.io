@@ -1,7 +1,7 @@
 <template>
-  <div class="ma-10 h-full w-full d-flex flex-row">
-    <div class="w-full mr-10">
-      <div>
+  <div class="ma-10 h-full w-full d-flex flex-row align-start debug">
+    <div class="w-50 mr-10 d-flex flex-column debug">
+      <div class="justify-end">
         <NuxtImg class="main-image" src="/selfie.jpg" />
       </div>
       <div class="pt-10">
@@ -11,7 +11,7 @@
         </ul>
       </div>
     </div>
-    <div class="w-full ma-5">
+    <div class="w-50 ma-5 debug">
       <div class="mb-5">
         <h1>Full-Stack Software Engineer</h1>
         <h3>Alejandro Munoz</h3>
